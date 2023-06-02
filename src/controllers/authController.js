@@ -46,7 +46,7 @@ router.post('/signin', async (req, res, next) => {
     const user = await User.findOne({email: email})
 
     if(!user){
-        return res.status(404).send("The user doesn't exists");
+        return res.status(404).send("el usuario no existe");
     }
 
     const validPassword = await user.validatePassword(password);
