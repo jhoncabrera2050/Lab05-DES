@@ -1,0 +1,23 @@
+{
+    "name": "node-simple-jwt",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "dev": "nodemon src/index.js"
+    },
+    "author": {
+      "name": "Jorge Castañeda",
+      "email": "jcastanedaa@tecsup.edu.pe"
+    },
+    "keywords": [],
+    "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
