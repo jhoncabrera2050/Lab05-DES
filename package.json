@@ -7,8 +7,8 @@
       "dev": "nodemon src/index.js"
     },
     "author": {
-      "name": "Jorge Castañeda",
-      "email": "jcastanedaa@tecsup.edu.pe"
+      "name": "jhon cabrera ojanama",
+      "email": "jhon.cabrera@tecsup.edu.pe"
     },
     "keywords": [],
     "dependencies": {
